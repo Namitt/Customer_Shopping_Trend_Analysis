@@ -68,7 +68,7 @@ Three dedicated KPI worksheets (`Total Revenue`, `Total Customer`, `Review Ratin
 ![Segmentation and Loyalty dashboard](images/dashboard_segmentation.png)
 
 **Behavioral & Cross-Factor**
-![Behavioral & Cross-Factor dashboard](images/dashboard_bheavioral.png)
+![Behavioral & Cross-Factor dashboard](images/dashboard_behavioral.png)
 
 ## Techniques demonstrated
 
