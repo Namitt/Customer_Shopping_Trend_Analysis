@@ -51,7 +51,9 @@ Three dedicated KPI worksheets (`Total Revenue`, `Total Customer`, `Review Ratin
 
 ## Dashboard previews
 
-> Exported from the Tableau workbook. Place PNGs in an `images/` folder with the filenames below.
+**Tableau Public Link:** https://public.tableau.com/views/CustomerShoppingTrendAnalysis_17830116490660/ConsumerShoppingTrends?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
+
+> Exported from the Tableau workbook.
 
 **Executive overview**
 ![Consumer Shopping Trends dashboard](images/dashboard_overview.png)
@@ -64,6 +66,9 @@ Three dedicated KPI worksheets (`Total Revenue`, `Total Customer`, `Review Ratin
 
 **Segmentation & Loyalty**
 ![Segmentation and Loyalty dashboard](images/dashboard_segmentation.png)
+
+**Behavioral & Cross-Factor**
+![Behavioral & Cross-Factor dashboard](images/dashboard_bheavioral.png)
 
 ## Techniques demonstrated
 
