@@ -1,12 +1,12 @@
 # Customer Shopping Trend Analysis
 
-An end-to-end retail analytics project on a 3,900-row consumer shopping dataset. Raw data is cleaned and feature-engineered in Python/pandas, explored in SQL Server through 15 business-framed queries, and visualised in an interactive four-dashboard Tableau workbook covering revenue drivers, product performance, customer segmentation, and behavioural patterns.
+An end-to-end retail analytics project on a 3,900-row consumer shopping dataset. Raw data is cleaned and feature-engineered in Python/pandas, explored in SQL Server through 15 business-framed queries, and visualised in an interactive five-dashboard Tableau workbook covering overview, revenue drivers, product performance, customer segmentation, and behavioural patterns.
 
 ## Project workflow
 
 ```
 Raw CSV  ──►  Python / pandas cleaning  ──►  cleaned CSV  ──►  SQL Server EDA  ──►  Tableau dashboards
- (3,900 rows)   (impute, standardize,         (source of        (15 queries,        (4 dashboards,
+ (3,900 rows)   (impute, standardize,         (source of        (15 queries,        (5 dashboards,
                  feature-engineer)             truth)            4 themes)           17 worksheets)
 ```
 
@@ -46,6 +46,7 @@ The cleaned frame is exported to `cleaned_customer_trend.csv`, the single source
 | **Revenue & Spending** | Revenue by category, season, gender, and age group; top 10 states by average spend; spend by shipping type and payment method |
 | **Products & Categories** | Top-rated products, highest discount-rate products, and a category × season heatmap |
 | **Segmentation & Loyalty** | Customer segments, subscribers vs non-subscribers, repeat-buyer subscription split, and discount-vs-full-price ratings |
+| **Behavioral & Cross-Factor** | Rating: Discount vs Full Price, Avg Spend by Shipping Type, Avg Spend by Payment Method |
 
 Three dedicated KPI worksheets (`Total Revenue`, `Total Customer`, `Review Rating`) act as summary tiles across the overview.
 
@@ -80,7 +81,7 @@ Python (pandas cleaning, imputation, `pd.cut` binning, categorical→numeric map
 | :--- | :--- |
 | `Customer_Shopping_Trend_Analysis.ipynb` | Phase 1 — Python cleaning & feature engineering |
 | `customer_shopping_trend_analysis.sql` | Phase 2 — 15-query SQL Server EDA |
-| `Customer-Shopping-Behavior-Analysis.twb` | Phase 3 — Tableau workbook (4 dashboards, 17 worksheets) |
+| `Customer-Shopping-Behavior-Analysis.twb` | Phase 3 — Tableau workbook (5 dashboards, 17 worksheets) |
 | `customer_shopping_trend.csv` | Dataset |
 | `Report_CSTA.pdf` | Written analysis report |
 | `Consumer_Shopping_Trends_Presentation.pptx` | Summary presentation deck |
